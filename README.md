@@ -8,7 +8,7 @@ This repository integrates Unity, ROS, and Franka Panda robot arms, including th
 
 ### **Software and Environment**
 - **WSL 1 Setup**: Ubuntu 20.04
-- **Unity Package**: Include the Unity repository in this workspace.
+- **Unity Package**: Run this alongside Unity VR Repository Instructions here: https://github.com/zoujoey/VR_Arm_Control_Interface.git
 - **FrankaROS**: Build FrankaROS from source to support the FR3 model.
 
 ---
