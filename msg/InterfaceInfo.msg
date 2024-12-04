@@ -1,0 +1,4 @@
+bool ResetButton
+bool GrabButton
+bool AutomaticGrabButton
+float32 ScalingButton

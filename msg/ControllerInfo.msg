@@ -1,0 +1,21 @@
+Header header
+
+# TODO remove after webview is more developed
+string controller_string_info
+
+ROS_Arm_Control_Interface/PosRot cc_pose_cur
+ROS_Arm_Control_Interface/PosRot cc_pose_init
+ROS_Arm_Control_Interface/PosRot ee_pose_cur
+ROS_Arm_Control_Interface/PosRot ee_pose_default
+ROS_Arm_Control_Interface/PosRot ee_pose_target
+float32 rg_pose_target
+
+ROS_Arm_Control_Interface/JointState joint_state
+ROS_Arm_Control_Interface/JointState gripper_state
+
+float32[] bounding_box_params
+float32[] position_tolerance
+float32 orientation_tolerance
+
+string control_mode
+string interface_mode

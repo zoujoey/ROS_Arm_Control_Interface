@@ -1,0 +1,6 @@
+Header header
+
+string current_state
+string current_state_id
+string previous_state
+string pervious_state_id

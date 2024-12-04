@@ -1,0 +1,12 @@
+# ee_pose_default: [0.3, 0.0, 0.5, 1.0, 0.0, 0.0, 0.0]
+ee_pose_default: [0.3, -0.25, 0.45, 1.0, 0.0, 0.0, 0.0]
+orientation_control: False
+ros_rate: 10
+position_tolerance: [-0.05, 0.05, -0.05, 0.05, -0.05, 0.05]
+orientation_tolerance: 0.3
+bounding_box: [-100, 100, -100, 100, -100, 100]
+rg_pose_default: 0.02
+rg_speed_default: 0.1
+rg_force_default: 0
+unity_controller: False
+rg_position_tolerance: 0.01

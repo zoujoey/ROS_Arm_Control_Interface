@@ -1,0 +1,8 @@
+# ee_pose_default: [0.3, 0.0, 0.5, 1.0, 0.0, 0.0, 0.0]
+ee_pose_default: [0.3, -0.25, 0.4,  0.9877225, -0.1291361, -0.0455828, 0.0871675]
+orientation_control: False
+ros_rate: 10
+position_tolerance: [-0.02, 0.02, -0.02, 0.02, -0.02, 0.02]
+orientation_tolerance: 0.3
+simulation: False
+bounding_box: [-0.2, 0.2, -0.2, 0.2, -0.2, 0.2]

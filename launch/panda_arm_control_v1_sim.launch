@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find panda_arm_control)/config/config_v1.yaml" />
+    <node name="panda_arm_test" pkg="panda_arm_control" type="panda_arm_control_v1_test.py" output="screen" />
+</launch>

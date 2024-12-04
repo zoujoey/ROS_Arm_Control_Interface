@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	<param name="interface_mode" type="string" value="simulation" />
+	<rosparam command="load" file="$(find ROS_Arm_Control_Interface)/config/config_v1.yaml" />	
+
+	<include file="$(find ros_tcp_endpoint)/launch/endpoint.launch"/>
+</launch>
